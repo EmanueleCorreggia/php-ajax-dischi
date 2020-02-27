@@ -1,0 +1,13 @@
+//typo
+$font: 'Roboto', sans-serif;
+$fontSize: 14px;
+$fontH1: $fontSize * 1.2;
+
+//colors
+$colorBackgroundDark: #000;
+$colorBackground: lighten($colorBackgroundDark, 10);
+$colorBase: #fff;
+$colorAuthor: darken($colorBase, 50);
+
+//size
+$widthContainer: 80%;

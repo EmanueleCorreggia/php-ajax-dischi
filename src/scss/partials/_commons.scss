@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font;
+  font-size: $fontSize;
+  background-color: $colorBackground;
+  color: $colorBase;
+}
+
+.container {
+  width: $widthContainer;
+  margin: auto;
+}
+
+header {
+  padding: 20px 0;
+  background-color: $colorBackgroundDark;
+  .logo {
+    width: 50px;
+  }
+}
+
+main {
+  padding: 80px 0;
+}
